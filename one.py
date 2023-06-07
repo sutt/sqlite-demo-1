@@ -11,6 +11,6 @@ while True:
     print(counter)
     time.sleep(1)
 
-    # with open('one.txt', 'w') as f:
-    #     f.write('Goodbye, World!')
+    with open('one.txt', 'w') as f:
+        f.write(str(counter))
 
